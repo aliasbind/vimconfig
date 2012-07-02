@@ -2,7 +2,7 @@ set t_Co=256
 colorscheme wombat256
 cd $HOME
 
-set guifont="Deja Vu Sans Mono 9"
+set guifont=Deja\ Vu\ Sans\ Mono\ 9
 set guioptions=
 
 set smarttab
