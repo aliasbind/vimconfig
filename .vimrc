@@ -1,14 +1,11 @@
 set t_Co=256
 colorscheme wombat256
-cd $HOME/Development
+cd $HOME
 
-set shiftwidth=4
-set tabstop=4
-set textwidth=80
 set formatoptions=tcroqla
-set expandtab
+set textwidth=76
 
-set guifont="Deja Vu Sans Mono 10"
+set guifont="Deja Vu Sans Mono 9"
 set guioptions=
 
 set smarttab
