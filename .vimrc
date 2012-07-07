@@ -1,22 +1,14 @@
+filetype plugin indent on
 set t_Co=256
 colorscheme wombat256
 
 set guifont=Deja\ Vu\ Sans\ Mono\ 9
 set guioptions=
 
-set smarttab
-set smartindent
-set autoindent
+set cindent
 set number
-set formatoptions+=roa
-set textwidth=78
+set formatoptions+=ro
+set textwidth=76
 
 set nobackup
-set nowritebackup
 set noswapfile
-
-filetype plugin indent on
-
-map <F12>  :pop <CR>
-map zf <ESC> :cfile /tmp/compile-log <CR>
-map zn <ESC> :cnext <CR>
