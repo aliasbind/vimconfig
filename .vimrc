@@ -10,13 +10,14 @@ set cindent
 set number
 set formatoptions+=ro
 set textwidth=76
+set modeline
 
 set nobackup
 set noswapfile
 
+set wildmenu
 set statusline=%<%f\ %y%h%m%r%=%-24.(0x%02B,%l/%L,%c%V%)\ %P
 set laststatus=2
-set wildmenu
 
-" Mark tabs and spaces
-set list listchars=tab:»\ ,trail:·,extends:»,precedes:«
+let c_space_errors = 1
+let java_space_errors = 1
