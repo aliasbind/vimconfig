@@ -27,6 +27,7 @@ nmap <silent> <C-j> :wincmd j<CR>
 nmap <silent> <C-k> :wincmd k<CR>
 nmap <silent> <C-l> :wincmd l<CR>
 nmap <Leader>o :NERDTree<CR>
+nmap <Leader>w :w<CR>
 
 let c_space_errors = 1
 let java_space_errors = 1
