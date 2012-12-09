@@ -31,5 +31,6 @@ nmap <silent> <C-l> :wincmd l<CR>
 nmap <Leader>o :NERDTree<CR>
 nmap <Leader>w :w<CR>
 
+let g:CommandTAcceptSelectionSplitMap='<C-x>'
 let c_space_errors = 1
 let java_space_errors = 1
