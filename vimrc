@@ -13,6 +13,7 @@ set formatoptions+=ro
 set textwidth=76
 set modeline
 set scrolljump=5
+set mouse=a
 
 set nobackup
 set noswapfile
