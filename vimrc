@@ -12,7 +12,7 @@ set number
 set formatoptions+=ro
 set textwidth=76
 set modeline
-set scrolljump=5
+set scrolljump=2
 set mouse=a
 
 set nobackup
