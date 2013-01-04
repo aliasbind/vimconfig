@@ -34,3 +34,8 @@ nmap <Leader>w :w<CR>
 let g:CommandTAcceptSelectionSplitMap='<C-x>'
 let c_space_errors = 1
 let java_space_errors = 1
+
+" Ignore files from NERDTree
+let NERDTreeIgnore = [ '\.pyc$', '\.o$', '^moc_*', '^ui_*' ]
+let NERDTreeIgnore += [ '\.dll$', '\.exe$' ]
+let NERDTreeIgnore += [ '\.png$', '\.gif$', '\.jpg$', '\.bmp$', '\.ico' ]
