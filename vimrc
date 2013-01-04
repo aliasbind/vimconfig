@@ -22,6 +22,7 @@ set wildmenu
 set statusline=%<%f\ %y%h%m%r%=%-24.(0x%02B,%l/%L,%c%V%)\ %P
 set laststatus=2
 
+map Q gq
 imap jj <ESC>
 
 nmap <silent> <C-h> :wincmd h<CR>
@@ -36,6 +37,7 @@ let c_space_errors = 1
 let java_space_errors = 1
 
 " Ignore files from NERDTree
-let NERDTreeIgnore = [ '\.pyc$', '\.o$', '^moc_*', '^ui_*' ]
+let NERDTreeIgnore = [ '\~$' ]
+let NERDTreeIgnore += [ '\.pyc$', '\.o$', '^moc_.*\.cpp$', '^ui_.*\.h$' ]
 let NERDTreeIgnore += [ '\.dll$', '\.exe$' ]
 let NERDTreeIgnore += [ '\.png$', '\.gif$', '\.jpg$', '\.bmp$', '\.ico' ]
