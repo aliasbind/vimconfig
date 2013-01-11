@@ -22,6 +22,7 @@ set wildmenu
 set statusline=%<%f\ %y%h%m%r%=%-24.(0x%02B,%l/%L,%c%V%)\ %P
 set laststatus=2
 
+map K <Nop>
 map Q gq
 imap jj <ESC>
 
