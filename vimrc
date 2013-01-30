@@ -14,6 +14,7 @@ set textwidth=76
 set modeline
 set scrolljump=2
 set mouse=a
+set scrolloff=99
 
 set nobackup
 set noswapfile
