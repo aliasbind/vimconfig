@@ -27,6 +27,10 @@ map K <Nop>
 map Q gq
 imap jj <ESC>
 
+" Fix for undo not working on these bindings
+inoremap <c-u> <c-g>u<c-u>
+inoremap <c-w> <c-g>u<c-w>
+
 nmap <silent> <C-h> :wincmd h<CR>
 nmap <silent> <C-j> :wincmd j<CR>
 nmap <silent> <C-k> :wincmd k<CR>
