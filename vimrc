@@ -4,7 +4,7 @@ syntax on
 set t_Co=256
 colorscheme wombat256
 
-set guifont=Deja\ Vu\ Sans\ Mono\ 9
+set guifont=Terminus\ 9
 set guioptions=
 
 set cindent
@@ -12,8 +12,8 @@ set number
 set formatoptions+=ro
 set textwidth=76
 set modeline
-set scrolljump=2
 set mouse=a
+set scrolljump=2
 set scrolloff=99
 
 set nobackup
