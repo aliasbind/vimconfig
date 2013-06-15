@@ -2,7 +2,7 @@ call pathogen#infect()
 filetype plugin indent on
 syntax on
 set t_Co=256
-colorscheme wombat256
+colorscheme zenburn
 
 set guifont=Terminus\ 9
 set guioptions=
