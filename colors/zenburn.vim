@@ -354,7 +354,7 @@ if &t_Co > 255
         hi difftext        ctermbg=237
         hi errormsg        ctermbg=237
         hi incsearch       ctermbg=228
-        hi linenr          ctermbg=235
+        hi linenr          ctermbg=234
         hi search          ctermbg=238
         hi statement       ctermbg=237
         hi statusline      ctermbg=144
