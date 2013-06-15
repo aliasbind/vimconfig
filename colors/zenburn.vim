@@ -347,14 +347,14 @@ if &t_Co > 255
 
         hi ColorColumn     ctermbg=235
     else
-        hi Normal ctermfg=188 ctermbg=235
+        hi Normal ctermfg=188 ctermbg=237
         hi Cursor          ctermbg=109
         hi diffadd         ctermbg=237
         hi diffdelete      ctermbg=238
         hi difftext        ctermbg=237
         hi errormsg        ctermbg=237
         hi incsearch       ctermbg=228
-        hi linenr          ctermbg=234
+        hi linenr          ctermbg=235
         hi search          ctermbg=238
         hi statement       ctermbg=237
         hi statusline      ctermbg=144
@@ -437,7 +437,7 @@ if exists("g:zenburn_high_Contrast") && g:zenburn_high_Contrast
     hi ColorColumn     guibg=#33332f
 else
     " Original, lighter background
-    hi Normal          guifg=#dcdccc guibg=#2f2f2f
+    hi Normal          guifg=#dcdccc guibg=#3f3f3f
     hi CursorLine      guibg=#434443
     if exists("g:zenburn_unified_CursorColumn") && g:zenburn_unified_CursorColumn
         hi CursorColumn    guibg=#434343
@@ -633,3 +633,4 @@ if exists("g:zenburn_enable_TagHighlight") && g:zenburn_enable_TagHighlight
 endif
 
 " TODO check for more obscure syntax groups that they're ok
+
