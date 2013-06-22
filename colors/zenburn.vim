@@ -634,3 +634,10 @@ endif
 
 " TODO check for more obscure syntax groups that they're ok
 
+" CUSTOM PROPERTIES
+
+" disable blinking
+set guicursor+=a:blinkon0
+
+" make cursor more visible
+hi Cursor guifg=#000d18 guibg=#dcdccc gui=bold
