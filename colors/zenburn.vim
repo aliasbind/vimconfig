@@ -641,3 +641,6 @@ set guicursor+=a:blinkon0
 
 " make cursor more visible
 hi Cursor guifg=#000d18 guibg=#dcdccc gui=bold
+
+" make visual selecting more visible
+hi Visual guifg=NONE guibg=#4e4e4e ctermfg=NONE ctermbg=239
