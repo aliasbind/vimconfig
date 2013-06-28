@@ -9,7 +9,7 @@ colorscheme zenburn
 set guifont=Terminus\ 9
 set guioptions=
 
-set cindent
+set autoindent
 set number
 set formatoptions+=ro
 set textwidth=76
