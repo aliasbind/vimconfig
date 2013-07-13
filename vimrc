@@ -9,6 +9,10 @@ colorscheme zenburn
 set guifont=Terminus\ 9
 set guioptions=
 
+set splitright
+set splitbelow
+set foldmethod=indent
+
 set autoindent
 set number
 set formatoptions+=ro
