@@ -12,6 +12,7 @@ set guioptions=
 set splitright
 set splitbelow
 set foldmethod=indent
+set foldopen-=search
 
 set autoindent
 set number
