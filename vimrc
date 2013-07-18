@@ -3,6 +3,8 @@ filetype plugin indent on
 syntax on
 set t_Co=256
 
+" Color scheme related options
+set cursorline
 let g:zenburn_high_Contrast = 1
 colorscheme zenburn
 
@@ -11,8 +13,6 @@ set guioptions=
 
 set splitright
 set splitbelow
-set foldmethod=indent
-set foldopen-=search
 
 set autoindent
 set number
@@ -54,3 +54,7 @@ let NERDTreeIgnore = [ '\~$' ]
 let NERDTreeIgnore += [ '\.pyc$', '\.o$', '^moc_.*\.cpp$', '^ui_.*\.h$' ]
 let NERDTreeIgnore += [ '\.dll$', '\.exe$' ]
 let NERDTreeIgnore += [ '\.png$', '\.gif$', '\.jpg$', '\.bmp$', '\.ico' ]
+
+" Folding customizations
+set foldmethod=indent
+set foldopen-=search

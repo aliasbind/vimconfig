@@ -1,1 +1,8 @@
 .netrwhist
+eclim*
+
+# Ignore Command-T related files
+ruby/command-t/Makefile
+*.so
+*.o
+*.log
