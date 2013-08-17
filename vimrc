@@ -4,7 +4,6 @@ syntax on
 set t_Co=256
 
 " Color scheme related options
-set cursorline
 let g:zenburn_high_Contrast = 1
 colorscheme zenburn
 
