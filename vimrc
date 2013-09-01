@@ -65,4 +65,4 @@ let NERDTreeIgnore += [ '\.png$', '\.gif$', '\.jpg$', '\.bmp$', '\.ico' ]
 " Folding customizations
 set foldmethod=indent
 set foldopen-=search
-au BufNewFile,BufReadPre *.java set foldlevel=1
+set foldlevel=5
