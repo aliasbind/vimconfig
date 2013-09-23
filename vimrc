@@ -21,6 +21,7 @@ set modeline
 set mouse=a
 set scrolljump=2
 set scrolloff=99
+set regexpengine=1
 
 set nobackup
 set noswapfile
@@ -51,6 +52,7 @@ nmap <silent> <C-k> :wincmd k<CR>
 nmap <silent> <C-l> :wincmd l<CR>
 nmap <Leader>o :NERDTree<CR>
 nmap <Leader>w :w<CR>
+nmap <Leader>q :q<CR>
 
 let g:CommandTAcceptSelectionSplitMap='<C-x>'
 let c_space_errors = 1
