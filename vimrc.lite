@@ -1,0 +1,51 @@
+set guifont=Terminus\ 9
+set guioptions=
+
+set splitright
+set splitbelow
+
+set autoindent
+set number
+set formatoptions+=ro
+set textwidth=76
+set modeline
+set scrolljump=2
+set scrolloff=99
+
+set nobackup
+set noswapfile
+
+set wildmenu
+set statusline=%<%f\ %y%h%m%r%=%-24.(0x%02B,%l/%L,%c%V%)\ %P
+set laststatus=2
+
+map K <Nop>
+map Q gq
+imap jj <ESC>
+
+" Fix for undo not working on these bindings
+inoremap <c-u> <c-g>u<c-u>
+inoremap <c-w> <c-g>u<c-w>
+
+" Fix skipping wrapped lines
+imap <silent> <Down> <C-o>gj
+imap <silent> <Up> <C-o>gk
+nmap <silent> <Down> gj
+nmap <silent> <Up> gk
+nmap <silent> j gj
+nmap <silent> k gk
+
+nmap <silent> <C-h> :wincmd h<CR>
+nmap <silent> <C-j> :wincmd j<CR>
+nmap <silent> <C-k> :wincmd k<CR>
+nmap <silent> <C-l> :wincmd l<CR>
+nmap <Leader>q :q<CR>
+nmap <Leader>w :w<CR>
+
+let c_space_errors = 1
+let java_space_errors = 1
+
+" Folding customizations
+set foldmethod=indent
+set foldopen-=search
+set foldlevel=5
