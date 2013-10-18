@@ -1,6 +1,7 @@
 call pathogen#infect()
 filetype plugin indent on
 syntax on
+set hlsearch
 set t_Co=256
 
 " Color scheme related options
@@ -45,6 +46,7 @@ nmap <silent> <Down> gj
 nmap <silent> <Up> gk
 nmap <silent> j gj
 nmap <silent> k gk
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
 
 nmap <silent> <C-h> :wincmd h<CR>
 nmap <silent> <C-j> :wincmd j<CR>
