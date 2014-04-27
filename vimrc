@@ -63,6 +63,9 @@ let g:CommandTAcceptSelectionSplitMap='<C-x>'
 let c_space_errors = 1
 let java_space_errors = 1
 
+" CtrlP settings
+let g:ctrlp_map = '<Leader>t'
+
 " Ignore files from NERDTree
 let NERDTreeIgnore = [ '\~$' ]
 let NERDTreeIgnore += [ '\.pyc$', '\.o$', '^moc_.*\.cpp$', '^ui_.*\.h$' ]
