@@ -4,6 +4,9 @@ syntax on
 set hlsearch
 set t_Co=256
 
+" Runtime path modifications
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 " Color scheme related options
 let g:zenburn_high_Contrast = 1
 colorscheme zenburn
