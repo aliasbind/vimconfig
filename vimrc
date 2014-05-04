@@ -56,8 +56,8 @@ nmap <silent> <C-j> :wincmd j<CR>
 nmap <silent> <C-k> :wincmd k<CR>
 nmap <silent> <C-l> :wincmd l<CR>
 nnoremap <Leader>o :NERDTree<CR>
-nnoremap <Leader>w :w<CR>
-nnoremap <Leader>q :q<CR>
+nnoremap <Leader>w <Esc>:w<CR>
+nnoremap <Leader>q <Esc>:q<CR>
 
 let g:CommandTAcceptSelectionSplitMap='<C-x>'
 let c_space_errors = 1
