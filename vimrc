@@ -75,4 +75,4 @@ let NERDTreeIgnore += [ '\.png$', '\.gif$', '\.jpg$', '\.bmp$', '\.ico' ]
 " Folding customizations
 set foldmethod=indent
 set foldopen-=search
-set foldlevel=5
+set foldlevel=99
