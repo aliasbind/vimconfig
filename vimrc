@@ -14,7 +14,6 @@ colorscheme zenburn
 set guifont=Terminus\ 9
 set guioptions=
 
-set splitright
 set splitbelow
 
 set autoindent
@@ -76,3 +75,7 @@ let NERDTreeIgnore += [ '\.png$', '\.gif$', '\.jpg$', '\.bmp$', '\.ico' ]
 set foldmethod=indent
 set foldopen-=search
 set foldlevel=99
+
+set expandtab
+set ts=4
+set sw=4
